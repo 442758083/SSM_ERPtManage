@@ -95,7 +95,7 @@
                     </div>
                 </div>
 
-                <div class="mt-20 skin-minimal" style="text-align: center;">
+                <div class="mt-20 skin-minimal hidden" style="text-align: center;">
                     <div class="radio-box">
                         <input type="radio" id="radio-2" name="type" value="2" />
                         <label for="radio-1">用户</label>
