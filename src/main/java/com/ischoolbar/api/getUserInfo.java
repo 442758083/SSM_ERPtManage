@@ -32,6 +32,7 @@ public class getUserInfo {
   @ResponseBody
   public Map<String,Object> getUserInfoById(HttpServletRequest request, HttpServletResponse response){
     Map<String, Object> ret = new HashMap<String, Object>();
+    
     String id = request.getParameter("id");
     String app_sign = request.getParameter("sign");
     if(!(StringUtils.isEmpty(id)||StringUtils.isEmpty(app_sign))){
